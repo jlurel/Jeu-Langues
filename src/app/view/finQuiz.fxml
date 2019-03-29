@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pageFin" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.controller.FinQuizController"
+            prefHeight="750.0" prefWidth="750.0"
+            styleClass="fenetre">
+
+    <BorderPane prefHeight="750.0" prefWidth="750.0">
+        <top>
+            <VBox spacing="30" styleClass="header">
+                <HBox translateY="30">
+                    <Button fx:id="btnRetour" text="Retour" translateX="20" onAction="#retourner"/>
+                    <Label fx:id="titreChoix" text="Fin du quiz" translateX="120.0" />
+                </HBox>
+            </VBox>
+        </top>
+
+        <center>
+
+            <VBox spacing="20" BorderPane.alignment="CENTER" alignment="CENTER">
+                <HBox spacing="10" BorderPane.alignment="CENTER" alignment="CENTER" >
+                    <Label text="Voici vos résultats :" />
+                </HBox>
+                <VBox spacing="20" alignment="CENTER">
+                    <Label fx:id="lblBonnesReponses" text="Nombre de bonnes réponses : " />
+                    <Label fx:id="lblNbQuestions" text="Nombre de questions : " />
+                    <Label fx:id="lblTauxReussite" text="Taux de réussite : " />
+                </VBox>
+            </VBox>
+
+        </center>
+
+        <bottom>
+            <Button fx:id="btnQuitter" text="Quitter" onAction="#quitterJeu" BorderPane.alignment="CENTER"/>
+        </bottom>
+
+    </BorderPane>
+
+</AnchorPane>

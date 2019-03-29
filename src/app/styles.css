@@ -1,0 +1,193 @@
+.button, .toggle-button {
+    -fx-cursor: hand;
+}
+
+.button {
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+
+.header {
+    -fx-background-color: rgba(36, 47, 65, 1);
+    -fx-pref-height: 110;
+}
+
+.fenetre {
+    -fx-background-color: papayawhip;
+}
+
+.toggle-button:selected {
+    -fx-scale-x: 1.3;
+    -fx-scale-y: 1.3;
+    -fx-scale-z: 1.3;
+    -fx-effect: dropshadow(gaussian, rgba(51, 153, 51, 1) , 20, 0, 0, 0);
+
+}
+
+.btnReponse {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 15;
+    -fx-border-color: black;
+}
+
+.btnChoix {
+    -fx-background-color: transparent;
+}
+
+.btnChoix:hover {
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+    -fx-scale-z: 1.5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8) , 10, 0, 0, 0);
+}
+
+.btnFaux {
+    -fx-background-color: white;
+    -fx-text-fill: red;
+    -fx-font-size: 15;
+    -fx-border-color: red;
+}
+
+.btnVrai {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+    -fx-font-size: 15;
+    -fx-border-color: green;
+}
+
+#lblReponse {
+    -fx-font-size: 15;
+}
+
+.lblFaux {
+    -fx-text-fill: red;
+}
+
+.lblVrai {
+    -fx-text-fill: green;
+}
+
+#lblScore {
+    -fx-font-size: 15;
+    -fx-graphic: url("images/icons8-trophy.png");
+}
+
+#btnJouer {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-font-size: 30;
+}
+
+#btnJouer:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #2196f3;
+    -fx-font-size: 30;
+    -fx-border-color: #2196f3;
+}
+
+#btnQuitter {
+    -fx-background-color: orangered;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+
+#btnQuitter:hover {
+    -fx-background-color: white;
+    -fx-text-fill: orangered;
+    -fx-font-size: 20;
+    -fx-border-color: orangered;
+}
+
+
+#btnRetour {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+
+#btnRetour:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+}
+
+#btnSuivant {
+    -fx-background-color: limegreen;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+
+#btnSuivant:hover {
+    -fx-background-color: white;
+    -fx-text-fill: limegreen;
+    -fx-border-color: limegreen;
+}
+
+#titreChoix {
+    -fx-font-size: 30;
+}
+
+#btnAllemand {
+    -fx-graphic: url("images/icons8-germany.png");
+}
+
+#btnAnglais {
+    -fx-graphic: url("images/icons8-great_britain.png");
+}
+
+#btnEspagnol {
+    -fx-graphic: url("images/icons8-spain_2.png");
+}
+
+#lblLangueChoisie {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+#lblThemeChoisi {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+#btnQuotidien {
+    -fx-graphic: url("images/icons8-talk_female.png");
+}
+
+#btnMaison {
+    -fx-graphic: url("images/icons8-home.png");
+}
+
+#btnFamille {
+    -fx-graphic: url("images/icons8-family.png");
+}
+
+#btnAliments {
+    -fx-graphic: url("images/icons8-hamburger.png");
+}
+
+#btnCorps {
+    -fx-graphic: url("images/icons8-torso.png");
+}
+
+#btnChiffres {
+    -fx-graphic: url("images/icons8-123.png");
+}
+
+#btnVerbes {
+    -fx-graphic: url("images/icons8-verb.png");
+}
+
+#titreChoix {
+    -fx-padding: 5;
+    -fx-text-fill: white;
+}
+
+#titre {
+    -fx-font-size: 40;
+}
+
+#pageAccueil {
+    -fx-background-image: url("images/terre.gif");
+    -fx-background-color: papayawhip;
+}

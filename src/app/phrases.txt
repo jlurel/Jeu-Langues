@@ -1,0 +1,11 @@
+../images/quiz/peigner.png;She is ... her hair.;combing;listening;running;fin;
+../images/quiz/mangepomme.png;He has just ... an apple.;eaten;ate;eat;fin;
+../images/quiz/boire.png;He has just ... a soda.;drunk;drink;drank;fin;
+../images/quiz/decoller.png;The plane has just ...;taken off;took up;aired;fin;
+../images/quiz/pecher.png;He has just ... a fish.;caught;catched;catch;fin;
+../images/quiz/acheter.png;They have just ... a TV.;bought;buy;buied;fin;
+../images/quiz/gagner.png;She has just ... the contest.;won;wined;win;fin;
+../images/quiz/naitre.png;She has just ... a baby.;had;born;made;fin;
+../images/quiz/tomber.png;He has just ... his wallet.;dropped;drop;droppen;fin;
+../images/quiz/doucher.png;She has just ... a shower.;taken;took;take;fin;
+../images/quiz/perdre.png;He has just ... the game.;lost;lose;losed;fin;
